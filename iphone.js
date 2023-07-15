@@ -85,3 +85,10 @@ document.getElementById('play').addEventListener('click', function (e) {
 }
 });
 
+
+//Toggling class for Dynamic Island
+
+const DynamicIsland = document.querySelector('.DynamicIsland;');
+DynamicIsland.addEventListener('click', () => {
+  DynamicIsland.classList.toggle('extended');
+})

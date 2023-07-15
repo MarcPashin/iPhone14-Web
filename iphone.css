@@ -279,6 +279,31 @@ height: 650px;
          transition: 0.5s;
        }
 
+
+       .DynamicIsland:hover{
+        position: absolute;
+        width: 80%;
+        top: 10px;
+        right: 28.5px;
+        height: 40px;
+        border-radius: 20px;
+        background: rgb(0, 0, 0);
+        z-index: 0;
+      }
+
+
+      .DynamicIsland.extended{
+        position: absolute;
+        width: 80%;
+        top: 10px;
+        right: 28.5px;
+        height: 60px;
+        border-radius: 20px;
+        background: rgb(0, 0, 0);
+        z-index: 0;
+      }
+
+
        .AlbumCover{
         position: absolute;
         background: url(Graduation.jpeg);
@@ -335,18 +360,7 @@ height: 650px;
         transition: 0.5s;
       }
 
-      .DynamicIsland:hover{
-        position: absolute;
-        width: 80%;
-        top: 10px;
-        right: 28.5px;
-        height: 65px;
-        border-radius: 20px;
-        background: rgb(0, 0, 0);
-        z-index: 0;
-        
-      }
-
+     
       .pause-play{
         opacity: 0;
         top: 0;
@@ -375,16 +389,14 @@ height: 650px;
         top: 0;
         position: absolute;
         margin-left: auto;
-        scale: 0.1;
       }
 
       .DynamicIsland:hover .play{
         opacity: 0.9;
         z-index: 6;
-        right: 5px;
-        top: 6px;
+        right: 15px;
+        top: 8px;
         position: absolute;
-        scale: 0.6;
       }
 
 
