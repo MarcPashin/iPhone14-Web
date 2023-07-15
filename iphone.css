@@ -142,6 +142,10 @@ float: left;
 
 
 
+.blue-container{
+  background:rgba(43, 78, 138, 0.749)
+}
+
 /* Cell Phone CSS */
 
 
@@ -327,13 +331,6 @@ height: 650px;
         
       }
 
-   .DynamicIsland:hover .gif{
-        opacity: 1;
-        top: 0px;
-        right: 10px;
-        position: absolute;
-        transition: 0.7s;
-      }
 
 
       .FrontCam{
@@ -744,6 +741,3 @@ font-size: 2.9vw;
   opacity: 1;
 }
 
-.gif{
-  opacity: 0;
-}
