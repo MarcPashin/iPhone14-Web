@@ -142,8 +142,8 @@ float: left;
 
 
 
-.blue-container{
-  background:rgba(43, 78, 138, 0.749)
+.purple-container{
+  background:rgba(52, 30, 83, 0.749)
 }
 
 /* Cell Phone CSS */
@@ -331,7 +331,22 @@ height: 650px;
         
       }
 
+      .pause-play{
+        opacity: 0;
+        top: 0;
+        position: absolute;
+        right: 0px;
+      }
 
+
+      .DynamicIsland:hover .pause-play{
+        opacity: 0.85;
+        z-index: 6;
+        right: 11%;
+        top: 8px;
+        position: absolute;
+        animation: 0.5s;
+      }
 
       .FrontCam{
         position: absolute;
@@ -341,7 +356,7 @@ height: 650px;
         height: 10px;
         top: 16.5px;
          right: 100px;
-         z-index: 5;
+         z-index: 10;
       }
 
        .FrontCamInner{
@@ -352,7 +367,7 @@ height: 650px;
         height: 10px;
         top: 16.5px;
          right: 100px;
-         z-index: 6;
+         z-index: 11;
       }
 
 
