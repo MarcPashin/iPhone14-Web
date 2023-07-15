@@ -251,26 +251,115 @@ height: 650px;
          top: 10px;
          right: 95px;
          border-radius: 20px;
-         height: 20px;
+         height: 22.5px;
          background: rgb(0, 0, 0);
          z-index: 0;
          margin-left: auto;
          margin-right:auto;
          transition: 0.5s;
        }
-/*
+
+       .AlbumCover{
+        position: absolute;
+        background: url(Graduation.jpeg);
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+        top: 3px;
+         left:3px;
+         z-index: 5;
+         transition: 0.5s;
+      }
+     
+      h1
+      {
+        color: white;
+        font-size: 6px;
+        opacity:0
+      }
+
+      p{
+        color: white;
+        font-size: 3px;
+        opacity:0;
+      }
+
+      .DynamicIsland:hover .AlbumCover{
+        position: absolute;
+       background: url(Graduation.png);
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        top: 2px;
+        left: 3px;
+         z-index: 5;
+         transition: all 0.5s;
+      }
+
+      .DynamicIsland:hover h1{
+        opacity: 1;
+        font-size: 15px;
+        top: -6px;
+        left: 50px;
+        position: absolute;
+        transition: 0.5s;
+      }
+
+      .DynamicIsland:hover p{
+        color:rgb(194, 194, 194);
+        opacity: 1;
+        font-size: 12px;
+        top: 10px;
+        left: 50px;
+        position: absolute;
+        transition: 0.5s;
+      }
+
       .DynamicIsland:hover{
         position: absolute;
-        width: 140px;
+        width: 80%;
         top: 10px;
-        
+        right: 28.5px;
+        height: 40px;
         border-radius: 20px;
-        right: 65px;
         background: rgb(0, 0, 0);
         z-index: 0;
         
       }
-*/
+
+   .DynamicIsland:hover .gif{
+        opacity: 1;
+        top: 0px;
+        right: 10px;
+        position: absolute;
+        transition: 0.7s;
+      }
+
+
+      .FrontCam{
+        position: absolute;
+        background: rgba(39, 38, 38, 0.352);
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        top: 16.5px;
+         right: 100px;
+         z-index: 5;
+      }
+
+       .FrontCamInner{
+        position: absolute;
+        background: rgba(255, 255, 255, 0.036);
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        top: 16.5px;
+         right: 100px;
+         z-index: 6;
+      }
+
+
+      
        .HomeButton{
         position: absolute;
         width: 100px;
@@ -655,3 +744,6 @@ font-size: 2.9vw;
   opacity: 1;
 }
 
+.gif{
+  opacity: 0;
+}

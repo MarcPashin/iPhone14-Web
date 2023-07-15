@@ -50,6 +50,8 @@ window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 }
 
+
+//Scrolling Animation 
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
 
@@ -67,3 +69,9 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
+
+//Makes onclick function for Dynamic island
+let popup = document.querySelector('IslandClick');
+popup.onclick = function(){
+  popup.classList.toggle('active')
+}
