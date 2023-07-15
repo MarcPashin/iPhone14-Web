@@ -146,6 +146,18 @@ float: left;
   background:rgba(52, 30, 83, 0.749)
 }
 
+.green-container{
+  background:rgb(22, 132, 110)
+}
+
+.blue-container{
+background:rgb(33, 66, 132);
+}
+/*
+.black-container{
+  background:rgb(0, 0, 0)
+}
+*/
 /* Cell Phone CSS */
 
 
@@ -338,9 +350,40 @@ height: 650px;
         right: 0px;
       }
 
+      .pause{
+        opacity: 0;
+        top: 0;
+        position: absolute;
+        right: 0px;
+      }
+
+      .DynamicIsland:hover .pause{
+        opacity: 0;
+        z-index: 6;
+        right: 11%;
+        top: 8px;
+        position: absolute;
+        animation: 0.5s;
+      }
+
+      .play{
+        opacity: 0;
+        top: 0;
+        position: absolute;
+        margin-left: auto;
+      }
+
+      .DynamicIsland:hover .play{
+        opacity: 0.9;
+        z-index: 6;
+        right: 25px;
+        top: 8px;
+        position: absolute;
+      }
+
 
       .DynamicIsland:hover .pause-play{
-        opacity: 0.85;
+        opacity: 0;
         z-index: 6;
         right: 11%;
         top: 8px;
@@ -618,7 +661,7 @@ height: 650px;
 }
 
 .container span:nth-child(3) {
-  animation-delay: 0.3s;
+  animation-delay: 0.5s;
 }
 
 .container span:nth-child(4) {
@@ -626,61 +669,46 @@ height: 650px;
 }
 
 .container span:nth-child(5) {
-  animation-delay: 0.5s;
-}
-
-.container span:nth-child(6) {
-  animation-delay: 0.6s;
-}
-
-.container span:nth-child(7) {
-  animation-delay: 0.7s;
-}
-
-.container span:nth-child(8) {
   animation-delay: 0.8s;
 }
 
-.container span:nth-child(9) {
-  animation-delay: 0.9s;
+.container span:nth-child(6) {
+  animation-delay: 0s;
 }
-.container span:nth-child(10) {
+
+.container span:nth-child(7) {
   animation-delay: 1.6s;
 }
 
-.container span:nth-child(11) {
-  animation-delay: 1.4s;
+.container span:nth-child(8) {
+  animation-delay: 0s;
 }
 
+.container span:nth-child(9) {
+  animation-delay: 2.1s;
+}
+.container span:nth-child(10) {
+  animation-delay: 2.5s;
+}
 
-.container span:nth-child(12) {
+.container span:nth-child(11) {
   animation-delay: 2.8s;
 }
 
 
+.container span:nth-child(12) {
+  animation-delay: 3.1s;
+}
+
+
 .container span:nth-child(13) {
-  animation-delay: 3s;
+  animation-delay: 0s;
 }
 
 .container span:nth-child(14) {
-  animation-delay: 3.6s;
+  animation-delay: 3.7s;
 }
 
-.container span:nth-child(15) {
-  animation-delay: 3.2s;
-}
-
-.container span:nth-child(16) {
-  animation-delay: 2.2s;
-}
-
-.container span:nth-child(17) {
-  animation-delay: 3.4s;
-}
-
-.container span:nth-child(18) {
-  animation-delay: 2.4s;
-}
 
 
 
@@ -710,9 +738,17 @@ height: 650px;
 
 
 
-.phone_vid{
+#phone_vid{
 object-fit: cover;
+}
 
+.cinematic_vid{
+  object-fit: cover;
+  border-radius: 15px;
+  }
+
+.A16-Bionic{
+  border-radius: 30px;
 }
 
 

@@ -42,7 +42,7 @@ const startVideo = async () => {
   }
 }
 //starts video 5 seconds after website loads
-setTimeout(startVideo, 5000)
+setTimeout(startVideo, 4500)
 
 
 //Whenever user reloads the page, they are sent back to the top
@@ -70,8 +70,12 @@ function reveal() {
 
 window.addEventListener("scroll", reveal);
 
-//Makes onclick function for Dynamic island
-let popup = document.querySelector('IslandClick');
-popup.onclick = function(){
-  popup.classList.toggle('active')
-}
+
+
+
+//music play
+
+document.getElementById('play').addEventListener('click', function (e) {
+  e.preventDefault();
+  document.getElementById('audio').play();
+});
