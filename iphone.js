@@ -76,6 +76,12 @@ window.addEventListener("scroll", reveal);
 //music play
 
 document.getElementById('play').addEventListener('click', function (e) {
-  e.preventDefault();
-  document.getElementById('audio').play();
+ e.preventDefault();
+  var audio = document.getElementById("audio");
+  if (audio.paused == false){
+    audio.pause();
+}else{
+    audio.play();
+}
 });
+
