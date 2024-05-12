@@ -8,67 +8,9 @@ body{
   
     @font-face {
       font-family: Apple;
-      src: url(font.otf);
+      src: url(assets/font.otf);
     }
-    
-
-
-
-
-  /* Style the dropdown content */
-  /*
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #333;
-    min-width: 160px;
-    z-index: 1;
-    border-radius: 15px;  
-    
-    float: left;
-   color:white;
-  align-content: center;
-  }
-
-  .dropdown-btn {
-    display: block;
-   position: relative;
-    text-align: center;
-    align-content: center;
-    color: #fff;
-   font-size: 18px;
-   font-weight: none;
-    border: none;
-    cursor: pointer;
-    border-radius: 30px; 
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  text-align: center;
-}
-
-.dropdown-btn {
-    display: block;
-   position: relative;
-  text-align: center;
-  background-color: #333;
-  color: rgb(255, 255, 255);
-  font-size: 18px;
-  font-weight: none;
-    border: none;
-    cursor: pointer;
-}
-
-.show {
-    display: block;
-  }
- 
-*/
-  
-  /* Show the dropdown content when the dropdown button is clicked */
-
- 
+     
   /* Style the navigation bar */
   nav {
     background-color: #333;
@@ -211,7 +153,7 @@ height: 650px;
      .screen{
        position: absolute;
        inset: 3px;
-       background: url(background2.jpeg);
+       background: url(assets/background2.jpeg);
        background-size: cover;
        background-position: center;
        border-radius: 48px;
@@ -306,7 +248,7 @@ height: 650px;
 
        .AlbumCover{
         position: absolute;
-        background: url(Graduation.jpeg);
+        background: url(assets/Graduation.jpeg);
         border-radius: 50%;
         width: 16px;
         height: 16px;
@@ -331,7 +273,7 @@ height: 650px;
 
       .DynamicIsland:hover .AlbumCover{
         position: absolute;
-       background: url(Graduation.png);
+       background: url(assets/Graduation.png);
         border-radius: 50%;
         width: 36px;
         height: 36px;
@@ -494,7 +436,7 @@ height: 650px;
 
     .widgets{
       position: absolute;
-      background: url(widget.png);
+      background: url(assets/widget.png);
       background-size: cover;
       background-position: center;
       display: flex;
@@ -507,7 +449,7 @@ height: 650px;
 
 .flashlight{
   position: absolute;
-  background: url(appleFlashlight.png);
+  background: url(assets/appleFlashlight.png);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -547,7 +489,7 @@ height: 650px;
 
 .camera{
   position: absolute;
-  background: url(camera.png);
+  background: url(assets/camera.png);
   background-size: cover;
   background-position: center;
   display: flex;
